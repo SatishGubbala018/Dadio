@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+.button {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  padding: 0.5rem; /* 8px */
+  background-color: white;
+  border-radius: 9999px; /* fully rounded */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+
+/* .blog-image{
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem; /* rounded-md */
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06); */
+
+/* } */ 
+.slide {
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-left {
+  transform: translateX(-100%);
+}
+
+.slide-right {
+  transform: translateX(100%);
+}
+
+.slide-center {
+  transform: translateX(0);
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

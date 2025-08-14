@@ -1,0 +1,85 @@
+/* Import font if needed */
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600&display=swap");
+
+body {
+  font-family: "Mukta", sans-serif;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+}
+.desk-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-small {
+  background-color: white;
+  color: #000;
+}
+.login-btn {
+  align-self: flex-end;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  min-height: 3rem;
+  display: none;
+}
+
+.homelogo {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+}
+.mobile-list-element {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.mobile-list-element:hover {
+  color: skyblue;
+  transition: color 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .homelogo {
+    width: 60px;
+  }
+  .login-btn {
+    align-self: center;
+    width: 100%;
+  }
+  .login-btn {
+    padding: 12px 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .desktop-list {
+    font-size: 1.3rem;
+  }
+  .homelogo {
+    width: 100px;
+  }
+  .Navbar {
+    padding: 16px 30px;
+  }
+  .login-btn {
+    font-size: 1rem;
+  }
+}

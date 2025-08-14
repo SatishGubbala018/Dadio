@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap");
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  max-width: 100vw;
+  padding: 0%;
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+  box-sizing: border-box;
+}
+.why-dadio {
+  display: flex;
+  padding: 1% 3%;
+}
+.image-container {
+  min-width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.why-dadio-img {
+  width: 100%;
+  padding-top: 5%;
+}
+.why-dadio-heading {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.why-dadio-para {
+  font-size: clamp(10px, 1vw + 1rem, 19px);
+}
+.why-dadio-right-card {
+  padding-left: 2%;
+}
+.right-top-sub-card-con {
+  display: flex;
+  max-width: 60vw;
+}
+.right-top-sub-card {
+  padding: 4%;
+  min-width: 50%;
+  max-width: 50%;
+}
+.subcard-img {
+  background-color: #04adf6;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (min-width: 1680px) {
+  .why-dadio-heading {
+    font-size: 5rem;
+  }
+  .why-dadio-para {
+    font-size: 2rem;
+  }
+  .right-top-sub-card-con {
+    max-width: 60vw;
+  }
+  .right-top-sub-card {
+    font-size: 2rem;
+  }
+}
+@media (orientation: portrait) {
+  .why-dadio {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 4%;
+  }
+  .why-dadio-heading {
+    font-size: 2rem;
+  }
+  .why-dadio-para {
+    font-size: 1rem;
+  }
+  .right-top-sub-card-con {
+    max-width: 100vw;
+    margin-top: 20px;
+  }
+  .right-top-sub-card {
+    font-size: 0.8rem;
+  }
+}
+/* ================== HOME SECTION CSS ========================== */
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../assets/backgroundImage2.png");
+  background-size: cover;
+  padding: 10px;
+  height: 120vh;
+  width: 100%;
+}
+
+.content-container {
+  max-width: 60%;
+  color: #000000;
+  margin-top: 0;
+  padding: 50px 50px;
+}
+.tagline-container {
+  display: flex;
+  align-items: center;
+}
+.tagline {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.main-heading {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  margin-top: auto;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.download-btn {
+  background-color: #009dff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.join-btn {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.download-btn {
+  background-color: #009dff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.join-btn {
+  background-color: black;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.icon-circle {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image img {
+  max-height: 450px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+/* Container keeps everything on the same line */
+.tagline-container {
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+}
+
+/* Quote images */
+.quote-icon {
+  width: 15px;
+  height: auto;
+}
+
+.open {
+  transform: translateY(-10px);
+} /* lifts up a hair */
+.close {
+  transform: translateY(10px);
+} /* drops down a hair */
+
+.tagline {
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+}
+
+/* ......... FEATURE SECTION  ..........    */
+
+.features-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+  background-color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  color: #009dff;
+}
+
+.feature h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.feature p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* ......... Mobile View Max width 768px  ..........    */
+
+@media screen and (min-width: 1680px) {
+  .features-section {
+    padding-top: 35rem;
+  }
+  .main-heading {
+    font-size: 9rem;
+  }
+
+  .download-btn,
+  .join-btn {
+    font-size: 2.5rem;
+    padding: 2rem 4rem;
+    border-radius: 4rem;
+  }
+  .features-section {
+    gap: 60px;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+  .feature-icon {
+    width: 120px;
+    height: 120px;
+  }
+  .feature h3 {
+    font-size: 3rem;
+  }
+  .feature p {
+    font-size: 2rem;
+  }
+  .tagline {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1680px) {
+  .home-section {
+    height: auto;
+    padding: 1rem 4%;
+  }
+  .feature p {
+    margin-bottom: 3rem;
+  }
+  .main-heading {
+    font-size: 6rem;
+  }
+  .features-section {
+    margin-top: 22rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-section {
+    flex-direction: column;
+    padding: 2.5rem;
+    width: 100%;
+    background-size: cover; /* Use 'cover' for mobile background */
+    background-position: top center; /* Center the top */
+    min-height: 100vh; /* Use min-height to ensure full viewport */
+    height: auto;
+  }
+
+  .content-container {
+    max-width: 50%;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .main-heading {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin: 1rem 0;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: -30px;
+  }
+
+  .download-btn,
+  .join-btn {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.7rem;
+    width: 80%;
+    justify-content: center;
+  }
+
+  .icon-circle {
+    display: none;
+  }
+
+  .tagline-container {
+    gap: 0.2rem;
+  }
+
+  .quote-icon {
+    width: 0.6rem;
+  }
+
+  .hero-image img {
+    max-width: 100%; /*Image takes full width*/
+    height: auto;
+  }
+
+  /*Feature section Responsive*/
+  .features-section {
+    display: flex; /* Enable Flexbox */
+    flex-direction: row; /* Arrange features in a row */
+    padding: 0.5rem; /* Reduce padding around the entire section */
+    flex-wrap: wrap; /* Allow features to wrap to the next line */
+    width: 100%;
+    gap: 14px;
+    margin-bottom: -60px;
+  }
+
+  .feature {
+    max-width: 20%; /* Adjust feature width to fit more features in one row. */
+    text-align: center; /* Center the content within each feature */
+    margin-bottom: 1rem; /* space them out*/
+    padding: 0.5 rem; /*Give the feature element padding*/
+  }
+
+  .feature-icon {
+    width: 40px; /* icon sizes*/
+    height: 40px;
+    padding: 10px; /*Spacing inside*/
+    font-size: 32px;
+    margin: 0 auto 2rem; /*Center the icon*/
+  }
+
+  .feature h3 {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    margin-top: -1.4rem;
+  }
+
+  .feature p {
+    font-size: 0.5rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Responsive design for mobile devices */
+@media (min-width: 376px) and (max-width: 767px) {
+  .home-section {
+    height: 100vh;
+    padding-bottom: 4rem;
+  }
+  .join-btn {
+    margin-top: 1rem;
+  }
+  .download-btn,
+  .join-btn {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .home-section {
+    min-height: 100vh;
+    padding: 1rem;
+    background-image: url("../../assets/copule_mobile.png");
+  }
+  .features-section {
+    margin-bottom: -5px;
+  }
+
+  .feature p {
+    margin-bottom: 2rem;
+  }
+  .feature h3 {
+    font-size: 12px;
+  }
+  .quote-icon {
+    width: 6px;
+    height: auto;
+  }
+  .download-btn {
+    margin-top: 10px;
+    margin-left: 4px;
+  }
+  .join-btn {
+    margin-top: 20px;
+    width: auto;
+    padding: 8px 30px;
+  }
+
+  .tagline {
+    font-size: 10px;
+    font-weight: 400;
+    color: #000;
+  }
+}
+
+/* ......... Testimonial css ..............*/
+.testimonal-container {
+  display: flex;
+  align-items: center;
+  background-color: #f4fdfe;
+  max-height: auto;
+}
+
+.testimonal-container h1 {
+  font-size: clamp(10px, 1vw + 1rem, 30px);
+  padding: 15px;
+}
+.testimonal-image-con {
+  padding-right: 2%;
+  max-width: 800px;
+  max-height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-left {
+  margin-right: 6%;
+  font-size: 35px;
+}
+.arrow-right {
+  font-size: 35px;
+}
+
+.quote-icon-testimonial {
+  font-size: 22px;
+}
+
+@media (orientation: portrait) {
+  .testimonal-container {
+    display: grid;
+    flex-direction: column;
+  }
+  .testimonal-container h1 {
+    font-size: 20px;
+  }
+  .quote-icon-testimonial {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+}
+
