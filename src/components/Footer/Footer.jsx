@@ -6,7 +6,7 @@ import instagramLogo from "../../assets/Instagram.png";
 import facebookLogo from "../../assets/Facebook.png";
 import DadioLogo from "../../assets/logo.png";
 import playstoreicon from "../../assets/Google_Play.png";
-import appleIcon from "../../assets/Apple_inc.png";
+import appleIcon from "../../assets/Apple_Inc.png";
 import mobileLogo from "../../assets/Group_49.png";
 
 const Footer = () => {
