@@ -12,9 +12,9 @@ import openQuote from "../../assets/icon2.png";
 import HomeExploreSection from "../../components/HomeExploreSection";
 import Navbar from "../../components/Navbar/Navbar";
 import noUser from "../../assets/noUser.png";
-import findUser from "../../assets/find user male.png";
-import audioWave from "../../assets/audio wave.png";
-import communicationIcon from "../../assets/communication.png";
+import findUser from "../../assets/Find User Male.png";
+import audioWave from "../../assets/Audio Wave.png";
+import communicationIcon from "../../assets/Communication.png";
 import Testimonial from "../../components/TestimonialContainer/Testimonial";
 import Footer from "../../components/Footer/Footer";
 
