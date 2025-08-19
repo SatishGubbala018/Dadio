@@ -11,7 +11,7 @@ import closeQuote from "../../assets/icon1.png";
 import openQuote from "../../assets/icon2.png";
 import HomeExploreSection from "../../components/HomeExploreSection";
 import Navbar from "../../components/Navbar/Navbar";
-import noUser from "../../assets/no user.png";
+import noUser from "../../assets/noUser.png";
 import findUser from "../../assets/find user male.png";
 import audioWave from "../../assets/audio wave.png";
 import communicationIcon from "../../assets/communication.png";
