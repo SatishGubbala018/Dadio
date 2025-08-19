@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { useNavigate } from "react-router-dom";
-import xLogo from "../../assets/x.png";
+import xLogo from "../../assets/X.png";
 import instagramLogo from "../../assets/Instagram.png";
 import facebookLogo from "../../assets/Facebook.png";
 import DadioLogo from "../../assets/logo.png";
